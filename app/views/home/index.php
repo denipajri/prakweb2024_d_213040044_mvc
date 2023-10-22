@@ -1,6 +1,9 @@
 <div class="container mt-4">
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-        <h1>Selamat Datang di Website Saya</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem porro repellat doloribus. Rerum veniam, cumque sapiente reiciendis placeat ipsum tempora, alias expedita harum voluptates, laboriosam deserunt consequuntur officiis mollitia voluptatibus.</p>
+    <div class="jumbotron mt-4">
+        <h1 class="display-4">Selamat Datang di Website Saya</h1>
+        <p class="lead">Halo, nama saya <?= $data['nama']; ?></p>
+        <hr class="my-4">
+        <p>Ini adalah website MVC pertama saya yang dibuat menggunakan PHP</p>
+        <a href="#" class="btn btn-primary btn-lg">Pelajari lebih lanjut</a>
     </div>
 </div>

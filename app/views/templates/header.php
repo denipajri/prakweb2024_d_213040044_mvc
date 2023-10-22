@@ -23,6 +23,9 @@
                             <a class="nav-link active" aria-current="page" href="<?= BASEURL; ?>">Home</a>
                         </li>
                         <li class="nav-item">
+                            <a href="<?= $BASEURL; ?>/mahasiswa" class="nav-link">Mahasiswa</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="<?= BASEURL; ?>/about">About</a>
                         </li>
                     </ul>
