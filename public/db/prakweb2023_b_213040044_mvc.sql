@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `mahasiswa` (
-  `id_mahasiswa` int NOT NULL,
+  `id` int NOT NULL,
   `nama` varchar(100) NOT NULL,
   `nrp` varchar(9) NOT NULL,
   `email` varchar(50) NOT NULL,
@@ -39,7 +39,7 @@ CREATE TABLE `mahasiswa` (
 -- Dumping data for table `mahasiswa`
 --
 
-INSERT INTO `mahasiswa` (`id_mahasiswa`, `nama`, `nrp`, `email`, `jurusan`) VALUES
+INSERT INTO `mahasiswa` (`id`, `nama`, `nrp`, `email`, `jurusan`) VALUES
 (1, 'Rd. Deni Pajrianingrat', '213040044', 'deni.213040044@mail.unpas.ac.id', 'Teknik Informatika'),
 (2, 'Rendi Sopian', '213040042', 'rendi.213040042@mail.unpas.ac.id', 'Teknik Informatika'),
 (3, 'Dios Ahmad Fadlillah', '213040024', 'dios.213040024@mail.unpas.ac.id', 'Teknik Informatika'),
@@ -53,7 +53,7 @@ INSERT INTO `mahasiswa` (`id_mahasiswa`, `nama`, `nrp`, `email`, `jurusan`) VALU
 -- Indexes for table `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
-  ADD PRIMARY KEY (`id_mahasiswa`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -63,7 +63,7 @@ ALTER TABLE `mahasiswa`
 -- AUTO_INCREMENT for table `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
-  MODIFY `id_mahasiswa` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
